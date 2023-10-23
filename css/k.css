@@ -1,0 +1,135 @@
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+}
+
+body {
+  font-family: "DM Sans", sans-serif;
+}
+
+.header {
+  background-color: #474747;
+  color: #ffffff;
+  width: auto;
+  height: 40px;
+  padding-left: 2vw;
+  padding-right: 4vw;
+}
+
+.header a {
+  color: #ffffff;
+  text-decoration: none;
+  vertical-align: middle;
+}
+
+.header ul {
+  padding-top: 0.5vw;
+  padding-left: 4vw;
+}
+
+.header li {
+  display: inline;
+  padding: 1vw;
+}
+
+.header .social-box {
+  position: absolute;
+  right: 8vw;
+  top: 1%;
+}
+
+.nav-bar {
+  background-color: #f9f9f7;
+  width: auto;
+  padding-left: 5.8vw;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.nav a {
+  color: #2c2f24;
+  text-decoration: none;
+}
+
+.nav li :hover {
+  border-radius: 34px;
+  background: #dbdfd0;
+  height: 50px;
+  width: 128px;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.nav ul {
+  position: absolute;
+  right: 4vw;
+  top: 2.5vw;
+  line-height: 80px;
+}
+
+.nav li {
+  display: inline;
+  margin-right: 4vw;
+}
+
+.nav h1 {
+  position: absolute;
+  right: 120px;
+  line-height: 80px;
+}
+
+.reserve {
+  background-color: transparent;
+  border-color: #2c2f24;
+  border-radius: 50px;
+  line-height: 40px;
+  width: 120px;
+}
+
+.news {
+  background-color: #ffffff;
+  height: 85vh;
+  color: #2c2f24;
+  background-image: url(../img/image\ 110.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.news h1 {
+  font-family: Playfair Display;
+  font-size: 100px;
+}
+
+.news p {
+  font-style: normal;
+  line-height: 32px;
+  margin: 50px;
+}
+
+.btn_news a {
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 700;
+  color: #2c2f24;
+  display: inline;
+  line-height: 40px;
+  text-decoration: none;
+  border-color: transparent;
+  border-radius: 50px;
+  width: 110px;
+  margin-inline: 15px;
+}
+
+.btn_news :hover {
+  color: #ffffff;
+  background-color: #ad343e;
+  border-color: #ad343e;
+  border-radius: 50px;
+}
